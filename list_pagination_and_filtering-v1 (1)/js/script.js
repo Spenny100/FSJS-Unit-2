@@ -17,8 +17,10 @@ FSJS project 2 - List Filter and Pagination
    scoped to that function.
 ***/
 
+// student Listing grabs all elements with the .student-item class
+let studentListing = document.querySelectorAll('.student-item');
 
-
+console.log(studentListing);
 
 /*** 
    Create the `showPage` function to hide all of the items in the 
